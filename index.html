@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Hotel Trybe</title>
+</head>
+<body>
+  
+  <header class="header-trybe">
+    <img src="https://remotar.com.br/wp-content/uploads/2020/10/Trybe-200x200.jpg">
+    <h1>Hotel Trybe</h1>
+  </header>
+  <main>
+
+    <section class="hotel-form">
+      <form>
+          <h2>Reserve seu quarto!</h2>
+        <section class="form-section">
+            <label>Check-in:</label>
+            <input class="inputCheckin" type="date" style="width:30%">
+            <label>Check-out:</label>
+            <input class="inputCheckout" type="date" style="width:30%">
+        </section>
+
+        <section class="form-section">
+          <span>Quartos:</span>
+          <div>
+            <input class="bedroom" type="radio" name="bedroom" value="Comum" id="comum">
+            <label for="comum">Comum</label>
+          </div>
+
+          <div>
+            <input class="bedroom" type="radio" name="bedroom" value="Club" id="club">
+            <label for="club">Club</label>
+          </div>
+
+          <div>
+            <input class="bedroom" type="radio" name="bedroom" value="Luxo" id="luxo">
+            <label for="luxo">Luxo</label>
+          </div>
+
+          <div class="pessoas-section">
+            <label for="nPessoas" id="house-label">Pessoas:</label>
+            <select name="nPessoas" id="nPessoas" class="nPessoas">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+          </div>
+        </section>
+
+        <section class="form-section">
+          <textarea placeholder="Observação" id="obs" class="obs" name="obs" rows="7" cols="75"></textarea>
+        </section>
+
+        <button type="submit" id="submit-btn">Reservar</button>
+      </form>
+    </section>
+
+  
+    <section class="list-section">
+      <h2>Lista de reservas</h2>
+        <ol></ol>
+        <button type="submit" id="clear-btn">Limpar</button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
