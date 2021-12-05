@@ -15,3 +15,13 @@ Somente o arquivo CSS deve ser alterado.
 ## O que já vem pronto
 * Todo o forms;
 * Todo o javaScript
+
+## Spoiler: O que foi utilizado
+
+ - **flex-direction:** Isso estabelece o eixo principal, definindo assim a direção em que os flex items são colocados no flex container
+ 
+ - **justify-content:** Isso define o alinhamento ao longo do eixo principal. Ajuda a distribuir o espaço livre extra restante quando todos os itens flexíveis em uma linha são inflexíveis ou são flexíveis.
+ 
+ - **align-items:** Isso define o comportamento padrão de como os itens flexíveis são dispostos ao longo do **eixo cruzado** na linha atual.
+
+Para mais detalhes utilize esse [guia](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) completo de flexbox.
