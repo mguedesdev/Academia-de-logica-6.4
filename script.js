@@ -20,10 +20,12 @@ function getPessoas(){
 }
 
 function getData(value){
-  data = new Date(value)
-  dataFormatada = ((data.getDate() )) + "/" + ((data.getMonth() + 1)) + "/" + data.getFullYear(); 
+  const [year, month, day] = value.split('-').map((item) => +item)
+  data = new Date(year, month - 1, day)
+  dataFormatada = data.toLocaleDateString('pt-BR') ; 
   return dataFormatada;
 }
+
 
 function addItemList(e){
   e.preventDefault()
