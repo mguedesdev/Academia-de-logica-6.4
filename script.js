@@ -20,8 +20,8 @@ function getPessoas(){
 }
 
 function getData(value){
-  const [year, month, day] = value.split('-').map((item) => +item)
-  data = new Date(year, month - 1, day)
+  const valueDate = value + 'T03:00:00.000Z'
+  data = new Date(valueDate)
   dataFormatada = data.toLocaleDateString('pt-BR') ; 
   return dataFormatada;
 }
