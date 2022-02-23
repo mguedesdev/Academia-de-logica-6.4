@@ -8,11 +8,11 @@
 
 ## Como vai funcionar
 
-Você deve dar um upgrade no forms passado na ultima mentoria de lógica, lembre-se de utilizar flexbox.
+Ao clonar este repositório, você irá se deparar com o forms pronto passado na ultima mentoria de lógica mas ainda sem estilo.
 
-A imagem acima serve como referencia de como a aplicação deve ficar.
+Você deve dar um upgrade e seguir como referencia a imagem logo a cima, não se esqueça de utilizar flexbox.
 
-Para realizar este exercício somente o arquivo CSS deve ser alterado!.
+Para realizar este exercício somente o arquivo CSS deve ser alterado!
 
 ## O que já vem pronto
 * Todo o forms;
