@@ -9,7 +9,9 @@
 ## Como vai funcionar
 
 Você deve dar um upgrade no forms passado na ultima mentoria de lógica, lembre-se de utilizar flexbox.
+
 A imagem acima serve como referencia de como a aplicação deve ficar.
+
 Para realizar este exercício somente o arquivo CSS deve ser alterado!.
 
 ## O que já vem pronto
